@@ -15,7 +15,7 @@ from arcpy import env
 from arcpy.sa import *
 
 work_path = "\\\\imgwebserver\\IDIS\\DEMETER\\DATOS\\MODELO_BIOMASA_AGUA\\CALCULO_ET_MINARET\\2019\\Salidas\\KC\\"
-mascara_path = "\\\\imgwebserver\\IDIS\\DEMETER\\DATOS\\GRAFICAS\\shp_auxiliares\\parcelas_estudio.shp"
+mask_path = "\\\\imgwebserver\\IDIS\\DEMETER\\DATOS\\GRAFICAS\\shp_auxiliares\\parcelas_estudio.shp"
 ouput_path = "\\\\imgwebserver\\IDIS\\DEMETER\\DATOS\\MODELO_BIOMASA_AGUA\\CALCULO_ET_MINARET\\2019\\Salidas\\KC\\output"
 
 arcpy.env.workspace = work_path
